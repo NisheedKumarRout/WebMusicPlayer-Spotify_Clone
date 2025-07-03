@@ -1,0 +1,117 @@
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.m-2 {
+    margin-top: 8px;
+
+    margin-right: 8px;
+
+}
+
+.pad_home {
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.m-3 {
+    margin-right: 8px;
+
+}
+
+.pad_play {
+    padding-top: 0.5%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 0.5%;
+    font-size: 15px;
+}
+
+.card1 {
+    margin-top: 25px;
+    width: 180px;
+    height: 230px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-radius: 7px;
+
+}
+
+.card1:hover {
+    background-color: #1c1b1b;
+    
+
+}
+.card1:hover .img_button button{
+    opacity:1;
+    transform: translateX(80px) translateY(-30px);
+}
+
+.card1 img {
+    width: 140px;
+    height: 140px;
+    border-radius:7px;
+}
+
+.card1 p {
+    margin-left: 8px;
+    color: #A7A7A7;
+    font-size:13px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+  border-radius: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #535353;
+  border-radius: 12px; 
+  border: 3px solid #121212; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b3b3b3; 
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #535353 #121212;
+}
